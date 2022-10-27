@@ -20,3 +20,15 @@ Console.WriteLine("3. Il mio cibo preferito è: " + cibiPreferiti[0]);
 
 //Esercizio 4 (stampo il cibo nell' ultima posizione) 
 Console.WriteLine("4. Il mio cibo meno preferito è: " + cibiPreferiti[cibiPreferiti.Length - 1]);
+
+//bonus (stampo la posiozione mediana)
+if (cibiPreferiti.Length % 2 == 0)
+{
+    int mediana = cibiPreferiti.Length / 2;
+    Console.WriteLine("La mediana è " + cibiPreferiti[mediana-1]);
+}
+else
+{
+    int mediana = cibiPreferiti.Length / 2;
+    Console.WriteLine("La mediana è " + cibiPreferiti[mediana] );
+}
