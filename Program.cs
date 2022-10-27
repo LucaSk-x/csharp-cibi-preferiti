@@ -19,4 +19,4 @@ for (int i = 0; i < cibiPreferiti.Length; i++)
 Console.WriteLine("3. Il mio cibo preferito è: " + cibiPreferiti[0]);
 
 //Esercizio 4 (stampo il cibo nell' ultima posizione) 
-Console.WriteLine("4. Il mio cibo meno preferito è: " + cibiPreferiti[4]);
+Console.WriteLine("4. Il mio cibo meno preferito è: " + cibiPreferiti[cibiPreferiti.Length - 1]);
