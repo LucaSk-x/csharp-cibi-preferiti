@@ -206,9 +206,74 @@
 //        i++;
 //        Console.WriteLine(sum + " somma attuale");
 //    }
-}
+//}
 
 
+
+//_______________________________________________
+//Snack 1
+//Dare la possibilità di inserire due parole.
+//Verificare tramite una funzione che le due parole abbiano la stessa lunghezza.
+//Se hanno la stessa lunghezza, stamparle entrambe, altrimenti stampare la più lunga delle due. (stampare fuori dalla funzione)
+
+//{
+//    Console.WriteLine("Inserisci una parola");
+
+//    string parola1 = Console.ReadLine();
+//    string parola2 = Console.ReadLine();
+
+//    string risultato = checkLength(parola1, parola2);
+//    Console.WriteLine("Il tuo risultato è: " + risultato);
+
+//    string checkLength(string input1, string input2)
+//    {
+//        if (input1.Length == input2.Length)
+//        {
+//            string result = input1 + " - " + input2;
+//            return result;
+//        }
+//        else if (input1.Length > input2.Length)
+//        {
+//            return input1;
+//        }
+//        else if (input2.Length > input1.Length)
+//        {
+//            return input2;
+//        }
+//        else
+//        {
+//            return "non hai inserito una parola corretta";
+//        }
+//    }
+//}
+
+
+
+
+//__________________________________________________________________________
+//Snack 2
+//Scrivere una funzione per verificare se un numero è pari o dispari.
+//Quindi chiedere un numero all’utente e comunicargli se è pari o dispari.
+
+//{
+//    Console.WriteLine("Inserisci un numero");
+//    int numero = Convert.ToInt16(Console.ReadLine());
+
+//    string result = (chechEvenOrOdd(numero));
+//    Console.WriteLine(result);
+
+//    string chechEvenOrOdd(int input1)
+//    {
+//        if (input1 % 2 == 0)
+//        {
+//            return "Il numro è pari!";
+//        }
+//        else
+//        {
+//            return "Il numero è dispari!";
+//        }
+//    }
+//}
 
 
 
