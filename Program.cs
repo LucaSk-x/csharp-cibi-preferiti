@@ -147,6 +147,27 @@
 //}
 
 //Snack7.Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array
+//{
+
+//    int[] arrayToSave = new int[6];
+
+//    for (int i = 0; i < 6; i++)
+//    {
+//        Console.WriteLine("scegli un numero");
+//        int userNumber = Convert.ToInt32(Console.ReadLine());
+
+//        if (userNumber % 2 == 1)
+//        {
+//            arrayToSave[i] = userNumber;
+//        }
+
+//    }
+
+//    for (int i = 0; i < arrayToSave.Length; i++)
+//    {
+//        Console.Write(arrayToSave[i] + "-");
+//    }
+//}
 
 
 
@@ -172,7 +193,20 @@
 
 
 //Snack9.Crea un array vuoto e chiedi all’utente un numero da inserire nell’array. Continua a chiedere i numeri all’utente e a inserirli nell’array, fino a quando la somma degli elementi è minore di 50.
-
+//{
+//    int[] arrayToSave = new int[50];
+//    int sum = 0;
+//    int i = 0;
+//    while (sum < 49)
+//    {
+//        Console.WriteLine("scegli un numero");
+//        int userNumber = Convert.ToInt32(Console.ReadLine());
+//        arrayToSave[i] = userNumber;
+//        sum += userNumber;
+//        i++;
+//        Console.WriteLine(sum + " somma attuale");
+//    }
+}
 
 
 
